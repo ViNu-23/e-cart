@@ -13,7 +13,7 @@ export default function Navbar() {
     <div style={navBox}>
         
       
-        <Link to="/index">Home</Link>
+        <Link to="/home">Home</Link>
       <Link to="/about">About Us</Link>
       <Link to="/contact">Contact Us</Link>
     </div>
