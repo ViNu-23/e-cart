@@ -1,22 +1,21 @@
-import React from "react";
-import { BrowserRouter as Main, Route, Routes } from "react-router-dom";
-import Navbar from "./Components/Navbar";
-import Home from "./Components/Home";
-import About from "./Components/About";
-import Contact from "./Components/Contact";
+/** @format */
+
+import "./App.css";
+// import { Routes, Route } from "react-router-dom";
+// import Homepage from "./pages/homepage/Homepage";
+// import Cart from "./pages/cart/Cart";
+// import Navbar from "./components/navbar/Navbar";
+
 function App() {
   return (
-    <>
-      <Main>
-        <Navbar />
-        <Routes>
-          <Route exact path="/"></Route>
-          <Route exact path="/home" element={<Home />} />
-          <Route exact path="/about" element={<About />} />
-          <Route exact path="/contact" element={<Contact />} />
-        </Routes>
-      </Main>
-    </>
+    <div className="App">
+      {/* <Navbar />
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/cart" element={<Cart />} />
+      </Routes> */}
+      <h1>Hello</h1>
+    </div>
   );
 }
 
